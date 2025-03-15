@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 ::after,
 ::before {
@@ -36,3 +37,16 @@ Pro každou variantu si pomocí devtools udělejte screenshot.
 */
 
 
+.foto {
+  width: calc(100% / 4);
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
